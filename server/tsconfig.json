@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "noEmitOnError": true,
+    "removeComments": false,
+    "module": "ESNext",
+    "target": "es6",
+    "rootDir": "./",
+    "esModuleInterop": true,
+    "moduleResolution": "Node",
+    "outDir": "dist"
+  },
+  "include": [
+    "./src/**/*"
+  ],
+  "ts-node": {
+    "esm": true
+  },
+}
